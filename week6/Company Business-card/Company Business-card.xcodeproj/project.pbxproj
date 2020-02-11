@@ -7,68 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CB2F6BC523F31FC6003B644D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2F6BC423F31FC6003B644D /* AppDelegate.swift */; };
-		CB2F6BC723F31FC6003B644D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2F6BC623F31FC6003B644D /* SceneDelegate.swift */; };
-		CB2F6BC923F31FC6003B644D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2F6BC823F31FC6003B644D /* ContentView.swift */; };
-		CB2F6BCB23F31FC8003B644D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB2F6BCA23F31FC8003B644D /* Assets.xcassets */; };
-		CB2F6BCE23F31FC8003B644D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB2F6BCD23F31FC8003B644D /* Preview Assets.xcassets */; };
-		CB2F6BD123F31FC8003B644D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB2F6BCF23F31FC8003B644D /* LaunchScreen.storyboard */; };
-		CB2F6BDC23F31FC9003B644D /* Company_Business_cardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2F6BDB23F31FC9003B644D /* Company_Business_cardTests.swift */; };
-		CB2F6BE723F31FC9003B644D /* Company_Business_cardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2F6BE623F31FC9003B644D /* Company_Business_cardUITests.swift */; };
-		CB2F6BF523F32061003B644D /* oersted.png in Resources */ = {isa = PBXBuildFile; fileRef = CB2F6BF423F32061003B644D /* oersted.png */; };
+		CB2F6C0323F33397003B644D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2F6C0223F33397003B644D /* AppDelegate.swift */; };
+		CB2F6C0523F33397003B644D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2F6C0423F33397003B644D /* SceneDelegate.swift */; };
+		CB2F6C0723F33397003B644D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2F6C0623F33397003B644D /* ViewController.swift */; };
+		CB2F6C0A23F33397003B644D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB2F6C0823F33397003B644D /* Main.storyboard */; };
+		CB2F6C0C23F3339A003B644D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB2F6C0B23F3339A003B644D /* Assets.xcassets */; };
+		CB2F6C0F23F3339A003B644D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB2F6C0D23F3339A003B644D /* LaunchScreen.storyboard */; };
+		CB2F6C1A23F3339A003B644D /* Company_Business_cardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2F6C1923F3339A003B644D /* Company_Business_cardTests.swift */; };
+		CB2F6C2523F3339A003B644D /* Company_Business_cardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2F6C2423F3339A003B644D /* Company_Business_cardUITests.swift */; };
+		CB2F6C3323F334A9003B644D /* oersted.png in Resources */ = {isa = PBXBuildFile; fileRef = CB2F6C3223F334A9003B644D /* oersted.png */; };
+		CB2F6C3723F33A3C003B644D /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2F6C3623F33A3C003B644D /* WebViewController.swift */; };
+		CB2F6C3923F33E4B003B644D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2F6C3823F33E4B003B644D /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CB2F6BD823F31FC9003B644D /* PBXContainerItemProxy */ = {
+		CB2F6C1623F3339A003B644D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CB2F6BB923F31FC6003B644D /* Project object */;
+			containerPortal = CB2F6BF723F33397003B644D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CB2F6BC023F31FC6003B644D;
+			remoteGlobalIDString = CB2F6BFE23F33397003B644D;
 			remoteInfo = "Company Business-card";
 		};
-		CB2F6BE323F31FC9003B644D /* PBXContainerItemProxy */ = {
+		CB2F6C2123F3339A003B644D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CB2F6BB923F31FC6003B644D /* Project object */;
+			containerPortal = CB2F6BF723F33397003B644D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CB2F6BC023F31FC6003B644D;
+			remoteGlobalIDString = CB2F6BFE23F33397003B644D;
 			remoteInfo = "Company Business-card";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CB2F6BC123F31FC6003B644D /* Company Business-card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Company Business-card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB2F6BC423F31FC6003B644D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB2F6BC623F31FC6003B644D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CB2F6BC823F31FC6003B644D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CB2F6BCA23F31FC8003B644D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CB2F6BCD23F31FC8003B644D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		CB2F6BD023F31FC8003B644D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CB2F6BD223F31FC8003B644D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CB2F6BD723F31FC9003B644D /* Company Business-cardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Company Business-cardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB2F6BDB23F31FC9003B644D /* Company_Business_cardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company_Business_cardTests.swift; sourceTree = "<group>"; };
-		CB2F6BDD23F31FC9003B644D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CB2F6BE223F31FC9003B644D /* Company Business-cardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Company Business-cardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB2F6BE623F31FC9003B644D /* Company_Business_cardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company_Business_cardUITests.swift; sourceTree = "<group>"; };
-		CB2F6BE823F31FC9003B644D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CB2F6BF423F32061003B644D /* oersted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = oersted.png; path = ../../../../../Desktop/oersted.png; sourceTree = "<group>"; };
+		CB2F6BFF23F33397003B644D /* Company Business-card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Company Business-card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB2F6C0223F33397003B644D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB2F6C0423F33397003B644D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CB2F6C0623F33397003B644D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB2F6C0923F33397003B644D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB2F6C0B23F3339A003B644D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB2F6C0E23F3339A003B644D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB2F6C1023F3339A003B644D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB2F6C1523F3339A003B644D /* Company Business-cardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Company Business-cardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB2F6C1923F3339A003B644D /* Company_Business_cardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company_Business_cardTests.swift; sourceTree = "<group>"; };
+		CB2F6C1B23F3339A003B644D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB2F6C2023F3339A003B644D /* Company Business-cardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Company Business-cardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB2F6C2423F3339A003B644D /* Company_Business_cardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company_Business_cardUITests.swift; sourceTree = "<group>"; };
+		CB2F6C2623F3339A003B644D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB2F6C3223F334A9003B644D /* oersted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oersted.png; sourceTree = "<group>"; };
+		CB2F6C3623F33A3C003B644D /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		CB2F6C3823F33E4B003B644D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CB2F6BBE23F31FC6003B644D /* Frameworks */ = {
+		CB2F6BFC23F33397003B644D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB2F6BD423F31FC9003B644D /* Frameworks */ = {
+		CB2F6C1223F3339A003B644D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB2F6BDF23F31FC9003B644D /* Frameworks */ = {
+		CB2F6C1D23F3339A003B644D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,63 +82,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CB2F6BB823F31FC6003B644D = {
+		CB2F6BF623F33397003B644D = {
 			isa = PBXGroup;
 			children = (
-				CB2F6BC323F31FC6003B644D /* Company Business-card */,
-				CB2F6BDA23F31FC9003B644D /* Company Business-cardTests */,
-				CB2F6BE523F31FC9003B644D /* Company Business-cardUITests */,
-				CB2F6BC223F31FC6003B644D /* Products */,
+				CB2F6C0123F33397003B644D /* Company Business-card */,
+				CB2F6C1823F3339A003B644D /* Company Business-cardTests */,
+				CB2F6C2323F3339A003B644D /* Company Business-cardUITests */,
+				CB2F6C0023F33397003B644D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CB2F6BC223F31FC6003B644D /* Products */ = {
+		CB2F6C0023F33397003B644D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CB2F6BC123F31FC6003B644D /* Company Business-card.app */,
-				CB2F6BD723F31FC9003B644D /* Company Business-cardTests.xctest */,
-				CB2F6BE223F31FC9003B644D /* Company Business-cardUITests.xctest */,
+				CB2F6BFF23F33397003B644D /* Company Business-card.app */,
+				CB2F6C1523F3339A003B644D /* Company Business-cardTests.xctest */,
+				CB2F6C2023F3339A003B644D /* Company Business-cardUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CB2F6BC323F31FC6003B644D /* Company Business-card */ = {
+		CB2F6C0123F33397003B644D /* Company Business-card */ = {
 			isa = PBXGroup;
 			children = (
-				CB2F6BC423F31FC6003B644D /* AppDelegate.swift */,
-				CB2F6BC623F31FC6003B644D /* SceneDelegate.swift */,
-				CB2F6BC823F31FC6003B644D /* ContentView.swift */,
-				CB2F6BCA23F31FC8003B644D /* Assets.xcassets */,
-				CB2F6BCF23F31FC8003B644D /* LaunchScreen.storyboard */,
-				CB2F6BD223F31FC8003B644D /* Info.plist */,
-				CB2F6BF423F32061003B644D /* oersted.png */,
-				CB2F6BCC23F31FC8003B644D /* Preview Content */,
+				CB2F6C0223F33397003B644D /* AppDelegate.swift */,
+				CB2F6C0423F33397003B644D /* SceneDelegate.swift */,
+				CB2F6C0623F33397003B644D /* ViewController.swift */,
+				CB2F6C0823F33397003B644D /* Main.storyboard */,
+				CB2F6C0B23F3339A003B644D /* Assets.xcassets */,
+				CB2F6C0D23F3339A003B644D /* LaunchScreen.storyboard */,
+				CB2F6C1023F3339A003B644D /* Info.plist */,
+				CB2F6C3223F334A9003B644D /* oersted.png */,
+				CB2F6C3623F33A3C003B644D /* WebViewController.swift */,
+				CB2F6C3823F33E4B003B644D /* SettingsViewController.swift */,
 			);
 			path = "Company Business-card";
 			sourceTree = "<group>";
 		};
-		CB2F6BCC23F31FC8003B644D /* Preview Content */ = {
+		CB2F6C1823F3339A003B644D /* Company Business-cardTests */ = {
 			isa = PBXGroup;
 			children = (
-				CB2F6BCD23F31FC8003B644D /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		CB2F6BDA23F31FC9003B644D /* Company Business-cardTests */ = {
-			isa = PBXGroup;
-			children = (
-				CB2F6BDB23F31FC9003B644D /* Company_Business_cardTests.swift */,
-				CB2F6BDD23F31FC9003B644D /* Info.plist */,
+				CB2F6C1923F3339A003B644D /* Company_Business_cardTests.swift */,
+				CB2F6C1B23F3339A003B644D /* Info.plist */,
 			);
 			path = "Company Business-cardTests";
 			sourceTree = "<group>";
 		};
-		CB2F6BE523F31FC9003B644D /* Company Business-cardUITests */ = {
+		CB2F6C2323F3339A003B644D /* Company Business-cardUITests */ = {
 			isa = PBXGroup;
 			children = (
-				CB2F6BE623F31FC9003B644D /* Company_Business_cardUITests.swift */,
-				CB2F6BE823F31FC9003B644D /* Info.plist */,
+				CB2F6C2423F3339A003B644D /* Company_Business_cardUITests.swift */,
+				CB2F6C2623F3339A003B644D /* Info.plist */,
 			);
 			path = "Company Business-cardUITests";
 			sourceTree = "<group>";
@@ -142,13 +140,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CB2F6BC023F31FC6003B644D /* Company Business-card */ = {
+		CB2F6BFE23F33397003B644D /* Company Business-card */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CB2F6BEB23F31FC9003B644D /* Build configuration list for PBXNativeTarget "Company Business-card" */;
+			buildConfigurationList = CB2F6C2923F3339A003B644D /* Build configuration list for PBXNativeTarget "Company Business-card" */;
 			buildPhases = (
-				CB2F6BBD23F31FC6003B644D /* Sources */,
-				CB2F6BBE23F31FC6003B644D /* Frameworks */,
-				CB2F6BBF23F31FC6003B644D /* Resources */,
+				CB2F6BFB23F33397003B644D /* Sources */,
+				CB2F6BFC23F33397003B644D /* Frameworks */,
+				CB2F6BFD23F33397003B644D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -156,69 +154,69 @@
 			);
 			name = "Company Business-card";
 			productName = "Company Business-card";
-			productReference = CB2F6BC123F31FC6003B644D /* Company Business-card.app */;
+			productReference = CB2F6BFF23F33397003B644D /* Company Business-card.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CB2F6BD623F31FC9003B644D /* Company Business-cardTests */ = {
+		CB2F6C1423F3339A003B644D /* Company Business-cardTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CB2F6BEE23F31FC9003B644D /* Build configuration list for PBXNativeTarget "Company Business-cardTests" */;
+			buildConfigurationList = CB2F6C2C23F3339A003B644D /* Build configuration list for PBXNativeTarget "Company Business-cardTests" */;
 			buildPhases = (
-				CB2F6BD323F31FC9003B644D /* Sources */,
-				CB2F6BD423F31FC9003B644D /* Frameworks */,
-				CB2F6BD523F31FC9003B644D /* Resources */,
+				CB2F6C1123F3339A003B644D /* Sources */,
+				CB2F6C1223F3339A003B644D /* Frameworks */,
+				CB2F6C1323F3339A003B644D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CB2F6BD923F31FC9003B644D /* PBXTargetDependency */,
+				CB2F6C1723F3339A003B644D /* PBXTargetDependency */,
 			);
 			name = "Company Business-cardTests";
 			productName = "Company Business-cardTests";
-			productReference = CB2F6BD723F31FC9003B644D /* Company Business-cardTests.xctest */;
+			productReference = CB2F6C1523F3339A003B644D /* Company Business-cardTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CB2F6BE123F31FC9003B644D /* Company Business-cardUITests */ = {
+		CB2F6C1F23F3339A003B644D /* Company Business-cardUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CB2F6BF123F31FC9003B644D /* Build configuration list for PBXNativeTarget "Company Business-cardUITests" */;
+			buildConfigurationList = CB2F6C2F23F3339A003B644D /* Build configuration list for PBXNativeTarget "Company Business-cardUITests" */;
 			buildPhases = (
-				CB2F6BDE23F31FC9003B644D /* Sources */,
-				CB2F6BDF23F31FC9003B644D /* Frameworks */,
-				CB2F6BE023F31FC9003B644D /* Resources */,
+				CB2F6C1C23F3339A003B644D /* Sources */,
+				CB2F6C1D23F3339A003B644D /* Frameworks */,
+				CB2F6C1E23F3339A003B644D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CB2F6BE423F31FC9003B644D /* PBXTargetDependency */,
+				CB2F6C2223F3339A003B644D /* PBXTargetDependency */,
 			);
 			name = "Company Business-cardUITests";
 			productName = "Company Business-cardUITests";
-			productReference = CB2F6BE223F31FC9003B644D /* Company Business-cardUITests.xctest */;
+			productReference = CB2F6C2023F3339A003B644D /* Company Business-cardUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CB2F6BB923F31FC6003B644D /* Project object */ = {
+		CB2F6BF723F33397003B644D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = tobiasmidskard;
 				TargetAttributes = {
-					CB2F6BC023F31FC6003B644D = {
+					CB2F6BFE23F33397003B644D = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
-					CB2F6BD623F31FC9003B644D = {
+					CB2F6C1423F3339A003B644D = {
 						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = CB2F6BC023F31FC6003B644D;
+						TestTargetID = CB2F6BFE23F33397003B644D;
 					};
-					CB2F6BE123F31FC9003B644D = {
+					CB2F6C1F23F3339A003B644D = {
 						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = CB2F6BC023F31FC6003B644D;
+						TestTargetID = CB2F6BFE23F33397003B644D;
 					};
 				};
 			};
-			buildConfigurationList = CB2F6BBC23F31FC6003B644D /* Build configuration list for PBXProject "Company Business-card" */;
+			buildConfigurationList = CB2F6BFA23F33397003B644D /* Build configuration list for PBXProject "Company Business-card" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -226,38 +224,38 @@
 				en,
 				Base,
 			);
-			mainGroup = CB2F6BB823F31FC6003B644D;
-			productRefGroup = CB2F6BC223F31FC6003B644D /* Products */;
+			mainGroup = CB2F6BF623F33397003B644D;
+			productRefGroup = CB2F6C0023F33397003B644D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CB2F6BC023F31FC6003B644D /* Company Business-card */,
-				CB2F6BD623F31FC9003B644D /* Company Business-cardTests */,
-				CB2F6BE123F31FC9003B644D /* Company Business-cardUITests */,
+				CB2F6BFE23F33397003B644D /* Company Business-card */,
+				CB2F6C1423F3339A003B644D /* Company Business-cardTests */,
+				CB2F6C1F23F3339A003B644D /* Company Business-cardUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CB2F6BBF23F31FC6003B644D /* Resources */ = {
+		CB2F6BFD23F33397003B644D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB2F6BF523F32061003B644D /* oersted.png in Resources */,
-				CB2F6BD123F31FC8003B644D /* LaunchScreen.storyboard in Resources */,
-				CB2F6BCE23F31FC8003B644D /* Preview Assets.xcassets in Resources */,
-				CB2F6BCB23F31FC8003B644D /* Assets.xcassets in Resources */,
+				CB2F6C3323F334A9003B644D /* oersted.png in Resources */,
+				CB2F6C0F23F3339A003B644D /* LaunchScreen.storyboard in Resources */,
+				CB2F6C0C23F3339A003B644D /* Assets.xcassets in Resources */,
+				CB2F6C0A23F33397003B644D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB2F6BD523F31FC9003B644D /* Resources */ = {
+		CB2F6C1323F3339A003B644D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB2F6BE023F31FC9003B644D /* Resources */ = {
+		CB2F6C1E23F3339A003B644D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -267,52 +265,62 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CB2F6BBD23F31FC6003B644D /* Sources */ = {
+		CB2F6BFB23F33397003B644D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB2F6BC523F31FC6003B644D /* AppDelegate.swift in Sources */,
-				CB2F6BC723F31FC6003B644D /* SceneDelegate.swift in Sources */,
-				CB2F6BC923F31FC6003B644D /* ContentView.swift in Sources */,
+				CB2F6C0723F33397003B644D /* ViewController.swift in Sources */,
+				CB2F6C0323F33397003B644D /* AppDelegate.swift in Sources */,
+				CB2F6C0523F33397003B644D /* SceneDelegate.swift in Sources */,
+				CB2F6C3923F33E4B003B644D /* SettingsViewController.swift in Sources */,
+				CB2F6C3723F33A3C003B644D /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB2F6BD323F31FC9003B644D /* Sources */ = {
+		CB2F6C1123F3339A003B644D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB2F6BDC23F31FC9003B644D /* Company_Business_cardTests.swift in Sources */,
+				CB2F6C1A23F3339A003B644D /* Company_Business_cardTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB2F6BDE23F31FC9003B644D /* Sources */ = {
+		CB2F6C1C23F3339A003B644D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB2F6BE723F31FC9003B644D /* Company_Business_cardUITests.swift in Sources */,
+				CB2F6C2523F3339A003B644D /* Company_Business_cardUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CB2F6BD923F31FC9003B644D /* PBXTargetDependency */ = {
+		CB2F6C1723F3339A003B644D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CB2F6BC023F31FC6003B644D /* Company Business-card */;
-			targetProxy = CB2F6BD823F31FC9003B644D /* PBXContainerItemProxy */;
+			target = CB2F6BFE23F33397003B644D /* Company Business-card */;
+			targetProxy = CB2F6C1623F3339A003B644D /* PBXContainerItemProxy */;
 		};
-		CB2F6BE423F31FC9003B644D /* PBXTargetDependency */ = {
+		CB2F6C2223F3339A003B644D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CB2F6BC023F31FC6003B644D /* Company Business-card */;
-			targetProxy = CB2F6BE323F31FC9003B644D /* PBXContainerItemProxy */;
+			target = CB2F6BFE23F33397003B644D /* Company Business-card */;
+			targetProxy = CB2F6C2123F3339A003B644D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CB2F6BCF23F31FC8003B644D /* LaunchScreen.storyboard */ = {
+		CB2F6C0823F33397003B644D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CB2F6BD023F31FC8003B644D /* Base */,
+				CB2F6C0923F33397003B644D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB2F6C0D23F3339A003B644D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB2F6C0E23F3339A003B644D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -320,7 +328,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		CB2F6BE923F31FC9003B644D /* Debug */ = {
+		CB2F6C2723F3339A003B644D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -380,7 +388,7 @@
 			};
 			name = Debug;
 		};
-		CB2F6BEA23F31FC9003B644D /* Release */ = {
+		CB2F6C2823F3339A003B644D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -434,13 +442,11 @@
 			};
 			name = Release;
 		};
-		CB2F6BEC23F31FC9003B644D /* Debug */ = {
+		CB2F6C2A23F3339A003B644D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Company Business-card/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Company Business-card/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,17 +455,15 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "tobiasmidskard.Company-Business-card";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		CB2F6BED23F31FC9003B644D /* Release */ = {
+		CB2F6C2B23F3339A003B644D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Company Business-card/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Company Business-card/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -468,11 +472,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "tobiasmidskard.Company-Business-card";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
-		CB2F6BEF23F31FC9003B644D /* Debug */ = {
+		CB2F6C2D23F3339A003B644D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -493,7 +497,7 @@
 			};
 			name = Debug;
 		};
-		CB2F6BF023F31FC9003B644D /* Release */ = {
+		CB2F6C2E23F3339A003B644D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -514,7 +518,7 @@
 			};
 			name = Release;
 		};
-		CB2F6BF223F31FC9003B644D /* Debug */ = {
+		CB2F6C3023F3339A003B644D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -533,7 +537,7 @@
 			};
 			name = Debug;
 		};
-		CB2F6BF323F31FC9003B644D /* Release */ = {
+		CB2F6C3123F3339A003B644D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -555,43 +559,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CB2F6BBC23F31FC6003B644D /* Build configuration list for PBXProject "Company Business-card" */ = {
+		CB2F6BFA23F33397003B644D /* Build configuration list for PBXProject "Company Business-card" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CB2F6BE923F31FC9003B644D /* Debug */,
-				CB2F6BEA23F31FC9003B644D /* Release */,
+				CB2F6C2723F3339A003B644D /* Debug */,
+				CB2F6C2823F3339A003B644D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CB2F6BEB23F31FC9003B644D /* Build configuration list for PBXNativeTarget "Company Business-card" */ = {
+		CB2F6C2923F3339A003B644D /* Build configuration list for PBXNativeTarget "Company Business-card" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CB2F6BEC23F31FC9003B644D /* Debug */,
-				CB2F6BED23F31FC9003B644D /* Release */,
+				CB2F6C2A23F3339A003B644D /* Debug */,
+				CB2F6C2B23F3339A003B644D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CB2F6BEE23F31FC9003B644D /* Build configuration list for PBXNativeTarget "Company Business-cardTests" */ = {
+		CB2F6C2C23F3339A003B644D /* Build configuration list for PBXNativeTarget "Company Business-cardTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CB2F6BEF23F31FC9003B644D /* Debug */,
-				CB2F6BF023F31FC9003B644D /* Release */,
+				CB2F6C2D23F3339A003B644D /* Debug */,
+				CB2F6C2E23F3339A003B644D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CB2F6BF123F31FC9003B644D /* Build configuration list for PBXNativeTarget "Company Business-cardUITests" */ = {
+		CB2F6C2F23F3339A003B644D /* Build configuration list for PBXNativeTarget "Company Business-cardUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CB2F6BF223F31FC9003B644D /* Debug */,
-				CB2F6BF323F31FC9003B644D /* Release */,
+				CB2F6C3023F3339A003B644D /* Debug */,
+				CB2F6C3123F3339A003B644D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CB2F6BB923F31FC6003B644D /* Project object */;
+	rootObject = CB2F6BF723F33397003B644D /* Project object */;
 }
