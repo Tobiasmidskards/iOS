@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EC165CCD9EFA6961BFC30AE /* Pods_My_Personal_Notebook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FECCCBB860D282A99F8821B /* Pods_My_Personal_Notebook.framework */; };
+		5917A26DFC85814635B1781E /* Pods_My_Personal_NotebookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98AB1D5441EA163C94ECEAA2 /* Pods_My_Personal_NotebookTests.framework */; };
+		A22F2105EE53945481F2AE54 /* Pods_My_Personal_Notebook_My_Personal_NotebookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9A45A1647C2E8D3223B29B1 /* Pods_My_Personal_Notebook_My_Personal_NotebookUITests.framework */; };
+		CB77044324229857000CD32D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB77044224229857000CD32D /* AppDelegate.swift */; };
+		CB77044524229857000CD32D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB77044424229857000CD32D /* SceneDelegate.swift */; };
+		CB77044724229857000CD32D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB77044624229857000CD32D /* ViewController.swift */; };
+		CB77044C24229859000CD32D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB77044B24229859000CD32D /* Assets.xcassets */; };
+		CB77044F24229859000CD32D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB77044D24229859000CD32D /* LaunchScreen.storyboard */; };
+		CB77045A24229859000CD32D /* My_Personal_NotebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB77045924229859000CD32D /* My_Personal_NotebookTests.swift */; };
+		CB77046524229859000CD32D /* My_Personal_NotebookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB77046424229859000CD32D /* My_Personal_NotebookUITests.swift */; };
+		CB77047324229914000CD32D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB77047224229914000CD32D /* GoogleService-Info.plist */; };
+		CBA099F324229E4800A99691 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBA099F124229E4800A99691 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB77045624229859000CD32D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB77043724229857000CD32D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB77043E24229857000CD32D;
+			remoteInfo = "My Personal Notebook";
+		};
+		CB77046124229859000CD32D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB77043724229857000CD32D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB77043E24229857000CD32D;
+			remoteInfo = "My Personal Notebook";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FECCCBB860D282A99F8821B /* Pods_My_Personal_Notebook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_My_Personal_Notebook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		284C3CCB825547A36393C762 /* Pods-My Personal Notebook-My Personal NotebookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Personal Notebook-My Personal NotebookUITests.release.xcconfig"; path = "Target Support Files/Pods-My Personal Notebook-My Personal NotebookUITests/Pods-My Personal Notebook-My Personal NotebookUITests.release.xcconfig"; sourceTree = "<group>"; };
+		362194CD65DC7321DD70BFF6 /* Pods-My Personal Notebook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Personal Notebook.release.xcconfig"; path = "Target Support Files/Pods-My Personal Notebook/Pods-My Personal Notebook.release.xcconfig"; sourceTree = "<group>"; };
+		39393F8C7AD4009942F32E90 /* Pods-My Personal Notebook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Personal Notebook.debug.xcconfig"; path = "Target Support Files/Pods-My Personal Notebook/Pods-My Personal Notebook.debug.xcconfig"; sourceTree = "<group>"; };
+		76603C2B73348C1A2467A719 /* Pods-My Personal NotebookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Personal NotebookTests.debug.xcconfig"; path = "Target Support Files/Pods-My Personal NotebookTests/Pods-My Personal NotebookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		98AB1D5441EA163C94ECEAA2 /* Pods_My_Personal_NotebookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_My_Personal_NotebookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9A45A1647C2E8D3223B29B1 /* Pods_My_Personal_Notebook_My_Personal_NotebookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_My_Personal_Notebook_My_Personal_NotebookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C024D4980A168B4C5201BE06 /* Pods-My Personal Notebook-My Personal NotebookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Personal Notebook-My Personal NotebookUITests.debug.xcconfig"; path = "Target Support Files/Pods-My Personal Notebook-My Personal NotebookUITests/Pods-My Personal Notebook-My Personal NotebookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB77043F24229857000CD32D /* My Personal Notebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Personal Notebook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB77044224229857000CD32D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB77044424229857000CD32D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CB77044624229857000CD32D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB77044B24229859000CD32D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB77044E24229859000CD32D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB77045024229859000CD32D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB77045524229859000CD32D /* My Personal NotebookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Personal NotebookTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB77045924229859000CD32D /* My_Personal_NotebookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Personal_NotebookTests.swift; sourceTree = "<group>"; };
+		CB77045B24229859000CD32D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB77046024229859000CD32D /* My Personal NotebookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Personal NotebookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB77046424229859000CD32D /* My_Personal_NotebookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Personal_NotebookUITests.swift; sourceTree = "<group>"; };
+		CB77046624229859000CD32D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB77047224229914000CD32D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CBA099F224229E4800A99691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../week7/MyNotebook/MyNotebook/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBD8BC0148235A6DB12AA253 /* Pods-My Personal NotebookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-My Personal NotebookTests.release.xcconfig"; path = "Target Support Files/Pods-My Personal NotebookTests/Pods-My Personal NotebookTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB77043C24229857000CD32D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EC165CCD9EFA6961BFC30AE /* Pods_My_Personal_Notebook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB77045224229859000CD32D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5917A26DFC85814635B1781E /* Pods_My_Personal_NotebookTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB77045D24229859000CD32D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A22F2105EE53945481F2AE54 /* Pods_My_Personal_Notebook_My_Personal_NotebookUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD37F2EA40B119F3E927A39A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39393F8C7AD4009942F32E90 /* Pods-My Personal Notebook.debug.xcconfig */,
+				362194CD65DC7321DD70BFF6 /* Pods-My Personal Notebook.release.xcconfig */,
+				C024D4980A168B4C5201BE06 /* Pods-My Personal Notebook-My Personal NotebookUITests.debug.xcconfig */,
+				284C3CCB825547A36393C762 /* Pods-My Personal Notebook-My Personal NotebookUITests.release.xcconfig */,
+				76603C2B73348C1A2467A719 /* Pods-My Personal NotebookTests.debug.xcconfig */,
+				FBD8BC0148235A6DB12AA253 /* Pods-My Personal NotebookTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C17547170F98D8B0E1E3ADA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FECCCBB860D282A99F8821B /* Pods_My_Personal_Notebook.framework */,
+				A9A45A1647C2E8D3223B29B1 /* Pods_My_Personal_Notebook_My_Personal_NotebookUITests.framework */,
+				98AB1D5441EA163C94ECEAA2 /* Pods_My_Personal_NotebookTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB77043624229857000CD32D = {
+			isa = PBXGroup;
+			children = (
+				CB77044124229857000CD32D /* My Personal Notebook */,
+				CB77045824229859000CD32D /* My Personal NotebookTests */,
+				CB77046324229859000CD32D /* My Personal NotebookUITests */,
+				CB77044024229857000CD32D /* Products */,
+				AD37F2EA40B119F3E927A39A /* Pods */,
+				C17547170F98D8B0E1E3ADA5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CB77044024229857000CD32D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB77043F24229857000CD32D /* My Personal Notebook.app */,
+				CB77045524229859000CD32D /* My Personal NotebookTests.xctest */,
+				CB77046024229859000CD32D /* My Personal NotebookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB77044124229857000CD32D /* My Personal Notebook */ = {
+			isa = PBXGroup;
+			children = (
+				CB77044224229857000CD32D /* AppDelegate.swift */,
+				CB77044424229857000CD32D /* SceneDelegate.swift */,
+				CB77044624229857000CD32D /* ViewController.swift */,
+				CBA099F124229E4800A99691 /* Main.storyboard */,
+				CB77044B24229859000CD32D /* Assets.xcassets */,
+				CB77044D24229859000CD32D /* LaunchScreen.storyboard */,
+				CB77045024229859000CD32D /* Info.plist */,
+				CB77047224229914000CD32D /* GoogleService-Info.plist */,
+			);
+			path = "My Personal Notebook";
+			sourceTree = "<group>";
+		};
+		CB77045824229859000CD32D /* My Personal NotebookTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB77045924229859000CD32D /* My_Personal_NotebookTests.swift */,
+				CB77045B24229859000CD32D /* Info.plist */,
+			);
+			path = "My Personal NotebookTests";
+			sourceTree = "<group>";
+		};
+		CB77046324229859000CD32D /* My Personal NotebookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB77046424229859000CD32D /* My_Personal_NotebookUITests.swift */,
+				CB77046624229859000CD32D /* Info.plist */,
+			);
+			path = "My Personal NotebookUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB77043E24229857000CD32D /* My Personal Notebook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB77046924229859000CD32D /* Build configuration list for PBXNativeTarget "My Personal Notebook" */;
+			buildPhases = (
+				473BCC342C16D72A27C4DAE1 /* [CP] Check Pods Manifest.lock */,
+				CB77043B24229857000CD32D /* Sources */,
+				CB77043C24229857000CD32D /* Frameworks */,
+				CB77043D24229857000CD32D /* Resources */,
+				31D56160191BEC4B135A4110 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My Personal Notebook";
+			productName = "My Personal Notebook";
+			productReference = CB77043F24229857000CD32D /* My Personal Notebook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB77045424229859000CD32D /* My Personal NotebookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB77046C24229859000CD32D /* Build configuration list for PBXNativeTarget "My Personal NotebookTests" */;
+			buildPhases = (
+				8011FECD404C8FD48088759B /* [CP] Check Pods Manifest.lock */,
+				CB77045124229859000CD32D /* Sources */,
+				CB77045224229859000CD32D /* Frameworks */,
+				CB77045324229859000CD32D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB77045724229859000CD32D /* PBXTargetDependency */,
+			);
+			name = "My Personal NotebookTests";
+			productName = "My Personal NotebookTests";
+			productReference = CB77045524229859000CD32D /* My Personal NotebookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB77045F24229859000CD32D /* My Personal NotebookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB77046F24229859000CD32D /* Build configuration list for PBXNativeTarget "My Personal NotebookUITests" */;
+			buildPhases = (
+				9A5933ECAC478438716F55F5 /* [CP] Check Pods Manifest.lock */,
+				CB77045C24229859000CD32D /* Sources */,
+				CB77045D24229859000CD32D /* Frameworks */,
+				CB77045E24229859000CD32D /* Resources */,
+				F6BFFA29F4702BEF74B908B5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB77046224229859000CD32D /* PBXTargetDependency */,
+			);
+			name = "My Personal NotebookUITests";
+			productName = "My Personal NotebookUITests";
+			productReference = CB77046024229859000CD32D /* My Personal NotebookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB77043724229857000CD32D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = tobiasmidskard;
+				TargetAttributes = {
+					CB77043E24229857000CD32D = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					CB77045424229859000CD32D = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CB77043E24229857000CD32D;
+					};
+					CB77045F24229859000CD32D = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CB77043E24229857000CD32D;
+					};
+				};
+			};
+			buildConfigurationList = CB77043A24229857000CD32D /* Build configuration list for PBXProject "My Personal Notebook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB77043624229857000CD32D;
+			productRefGroup = CB77044024229857000CD32D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB77043E24229857000CD32D /* My Personal Notebook */,
+				CB77045424229859000CD32D /* My Personal NotebookTests */,
+				CB77045F24229859000CD32D /* My Personal NotebookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB77043D24229857000CD32D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB77047324229914000CD32D /* GoogleService-Info.plist in Resources */,
+				CB77044F24229859000CD32D /* LaunchScreen.storyboard in Resources */,
+				CB77044C24229859000CD32D /* Assets.xcassets in Resources */,
+				CBA099F324229E4800A99691 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB77045324229859000CD32D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB77045E24229859000CD32D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31D56160191BEC4B135A4110 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-My Personal Notebook/Pods-My Personal Notebook-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-My Personal Notebook/Pods-My Personal Notebook-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-My Personal Notebook/Pods-My Personal Notebook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		473BCC342C16D72A27C4DAE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-My Personal Notebook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8011FECD404C8FD48088759B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-My Personal NotebookTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A5933ECAC478438716F55F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-My Personal Notebook-My Personal NotebookUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6BFFA29F4702BEF74B908B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-My Personal Notebook-My Personal NotebookUITests/Pods-My Personal Notebook-My Personal NotebookUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-My Personal Notebook-My Personal NotebookUITests/Pods-My Personal Notebook-My Personal NotebookUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-My Personal Notebook-My Personal NotebookUITests/Pods-My Personal Notebook-My Personal NotebookUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB77043B24229857000CD32D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB77044724229857000CD32D /* ViewController.swift in Sources */,
+				CB77044324229857000CD32D /* AppDelegate.swift in Sources */,
+				CB77044524229857000CD32D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB77045124229859000CD32D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB77045A24229859000CD32D /* My_Personal_NotebookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB77045C24229859000CD32D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB77046524229859000CD32D /* My_Personal_NotebookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB77045724229859000CD32D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB77043E24229857000CD32D /* My Personal Notebook */;
+			targetProxy = CB77045624229859000CD32D /* PBXContainerItemProxy */;
+		};
+		CB77046224229859000CD32D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB77043E24229857000CD32D /* My Personal Notebook */;
+			targetProxy = CB77046124229859000CD32D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB77044D24229859000CD32D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB77044E24229859000CD32D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CBA099F124229E4800A99691 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBA099F224229E4800A99691 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB77046724229859000CD32D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB77046824229859000CD32D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB77046A24229859000CD32D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39393F8C7AD4009942F32E90 /* Pods-My Personal Notebook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8V92QSJ4Z3;
+				INFOPLIST_FILE = "My Personal Notebook/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tobiasmidskard.My-Personal-Notebook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB77046B24229859000CD32D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 362194CD65DC7321DD70BFF6 /* Pods-My Personal Notebook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8V92QSJ4Z3;
+				INFOPLIST_FILE = "My Personal Notebook/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tobiasmidskard.My-Personal-Notebook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB77046D24229859000CD32D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76603C2B73348C1A2467A719 /* Pods-My Personal NotebookTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8V92QSJ4Z3;
+				INFOPLIST_FILE = "My Personal NotebookTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tobiasmidskard.My-Personal-NotebookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Personal Notebook.app/My Personal Notebook";
+			};
+			name = Debug;
+		};
+		CB77046E24229859000CD32D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBD8BC0148235A6DB12AA253 /* Pods-My Personal NotebookTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8V92QSJ4Z3;
+				INFOPLIST_FILE = "My Personal NotebookTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tobiasmidskard.My-Personal-NotebookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Personal Notebook.app/My Personal Notebook";
+			};
+			name = Release;
+		};
+		CB77047024229859000CD32D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C024D4980A168B4C5201BE06 /* Pods-My Personal Notebook-My Personal NotebookUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8V92QSJ4Z3;
+				INFOPLIST_FILE = "My Personal NotebookUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tobiasmidskard.My-Personal-NotebookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "My Personal Notebook";
+			};
+			name = Debug;
+		};
+		CB77047124229859000CD32D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 284C3CCB825547A36393C762 /* Pods-My Personal Notebook-My Personal NotebookUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8V92QSJ4Z3;
+				INFOPLIST_FILE = "My Personal NotebookUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tobiasmidskard.My-Personal-NotebookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "My Personal Notebook";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB77043A24229857000CD32D /* Build configuration list for PBXProject "My Personal Notebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB77046724229859000CD32D /* Debug */,
+				CB77046824229859000CD32D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB77046924229859000CD32D /* Build configuration list for PBXNativeTarget "My Personal Notebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB77046A24229859000CD32D /* Debug */,
+				CB77046B24229859000CD32D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB77046C24229859000CD32D /* Build configuration list for PBXNativeTarget "My Personal NotebookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB77046D24229859000CD32D /* Debug */,
+				CB77046E24229859000CD32D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB77046F24229859000CD32D /* Build configuration list for PBXNativeTarget "My Personal NotebookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB77047024229859000CD32D /* Debug */,
+				CB77047124229859000CD32D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB77043724229857000CD32D /* Project object */;
+}
