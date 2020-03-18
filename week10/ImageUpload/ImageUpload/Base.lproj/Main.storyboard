@@ -16,19 +16,41 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" restorationIdentifier="image" image="apple.png" translatesAutoresizingMaskIntoConstraints="NO" id="8Pv-b8-mpW">
-                                <rect key="frame" x="91" y="315" width="233" height="267"/>
+                                <rect key="frame" x="46" y="148" width="323" height="353"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zsu-fh-jUH">
+                                <rect key="frame" x="158" y="620" width="98" height="30"/>
+                                <state key="normal" title="Choose image"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HKR-fU-ZRb">
+                                <rect key="frame" x="158" y="620" width="98" height="30"/>
+                                <state key="normal" title="Choose image"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lFd-2v-MRs">
+                                <rect key="frame" x="158" y="620" width="98" height="30"/>
+                                <state key="normal" title="Choose image"/>
+                                <connections>
+                                    <action selector="chooseImageButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sho-sz-fxa"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="8Pv-b8-mpW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="91" id="AyD-Zn-TPX"/>
-                            <constraint firstItem="8Pv-b8-mpW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MTG-mp-NEc"/>
-                            <constraint firstItem="8Pv-b8-mpW" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Xvf-74-OgZ"/>
-                            <constraint firstItem="8Pv-b8-mpW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="271" id="f00-SO-k7C"/>
+                            <constraint firstItem="8Pv-b8-mpW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="104" id="35h-Fl-uE5"/>
+                            <constraint firstItem="lFd-2v-MRs" firstAttribute="leading" secondItem="zsu-fh-jUH" secondAttribute="leading" id="MLN-Qa-3rb"/>
+                            <constraint firstItem="lFd-2v-MRs" firstAttribute="baseline" secondItem="zsu-fh-jUH" secondAttribute="baseline" id="XCn-XS-FdJ"/>
+                            <constraint firstItem="lFd-2v-MRs" firstAttribute="leading" secondItem="HKR-fU-ZRb" secondAttribute="leading" id="aVz-QB-3pt"/>
+                            <constraint firstItem="8Pv-b8-mpW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="46" id="bJN-OO-fIo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8Pv-b8-mpW" secondAttribute="bottom" constant="361" id="hDH-Ye-e3L"/>
+                            <constraint firstItem="8Pv-b8-mpW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ltK-mY-2sM"/>
+                            <constraint firstItem="lFd-2v-MRs" firstAttribute="centerX" secondItem="8Pv-b8-mpW" secondAttribute="centerX" id="pEV-85-8R9"/>
+                            <constraint firstItem="lFd-2v-MRs" firstAttribute="baseline" secondItem="HKR-fU-ZRb" secondAttribute="baseline" id="pV8-SF-utT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lFd-2v-MRs" secondAttribute="bottom" constant="212" id="vgZ-2J-qC4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="chooseImageButton" destination="lFd-2v-MRs" id="EUy-Uo-aPj"/>
                         <outlet property="imageView" destination="8Pv-b8-mpW" id="1IZ-Ag-bqm"/>
                     </connections>
                 </viewController>
